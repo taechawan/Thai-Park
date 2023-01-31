@@ -59,11 +59,20 @@ html,body{
 .img1{
     margin-top: 60px;
     grid-area: img1;
-    width: 500px
+    width: 500px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 8px 4px rgba(109, 113, 117, 0.5);
+    margin: 40px;
 }
 .img2{
     grid-area: img2;
-    width: 500px
+    width: 500px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 8px 4px rgba(109, 113, 117, 0.5);
+    margin: 40px;
+}
+.textMP{
+    text-align: center;
 }
 
 .mian-PY{
@@ -74,6 +83,7 @@ html,body{
     background-image: url(https://images.unsplash.com/photo-1612404748636-568ca4155994?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
     background-position: center;
     background-size: cover;
+    filter: grayscale(30%);
 }
 
 .box{
